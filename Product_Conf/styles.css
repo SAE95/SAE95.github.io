@@ -100,8 +100,9 @@ body{
 
 #Productthreedium{
   background-color: #FFEDBE;
-  width: 700px;
-  height: 400px;
+  width: 460px;
+  height: 540px;
+  padding: 35px;
 }
 
 #circle1{
