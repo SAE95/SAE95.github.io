@@ -21,7 +21,7 @@
 .ksfont-zoom-to-100::before { content: "\e0fc"; }
 
 :root {
-    --color-panel-background: rgba(50,50,50,0.25);
+    --color-panel-background: rgba(229,195,209,1);
     --color-panel-border: rgba(85,85,85,1);
     --color-title-text: rgba(255,255,255,1);
     --color-title-background: rgba(80,80,80,0.3);
@@ -50,7 +50,7 @@ html, body {
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    background: var(--color-window-background);
+    background-color: #8075FF;
     position: relative;
 }
 
@@ -88,7 +88,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    background: var(--color-panel-background);
+    background-color: #2D3047;
 }
 
 .toolbarbutton {
@@ -97,22 +97,26 @@ body {
     user-select: none;
     -webkit-user-select: none;
     padding-bottom: 10px;
-    color: #8A8A8A;
+    color: #3C887E;
 }
 .toolbarbutton:hover {
     color: #73B0F0;
 }
 .toolbarbutton.selected {
-    color: #0092FF;
+    color: #EDF7B5;
 }
 
 .panelarea {
     position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
     display: flex;
-    background: var(--color-panel-background);
-    --flowwidget-first-size: 50;
-    /* This is set to "100 - flowwidget-first-size". It looks like Firefox doesn't like calc() in flex: values (observed in version 56) */
-    --flowwidget-second-size: 50;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #2D3047;
 }
 
 .panelarea.layouthorizontal {
