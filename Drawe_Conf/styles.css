@@ -12,7 +12,7 @@
 }
 
 body{
-   background-color: #f3f5f9;
+   background-color: transparent;
 }
 
 .wrapper{
@@ -20,115 +20,103 @@ body{
   position: relative;
 }
 
-.wrapper .sidebar{
-  width: 100px;
-  height: 220px;
-  padding: 30px 20px;
-  position: fixed;
+.wrapper .main_content{
+  width: 100%;
+  background-color: transparent;
   
 }
 
-.wrapper .sidebar h4{
-  color: #2D3047;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.wrapper .sidebar ul li{
-  padding: 10px;
-  border-bottom: 2px solid #2D3047;
-  border-bottom: 2px solid rgba(0,0,0,0.05);
-  border-top: 2px solid rgba(255,255,255,0.05);
-}    
-
-.wrapper .sidebar ul li a{
-  color: #2D3047;
-  display: block;
-  font-size: 10px;
-  text-align: center;
-  margin-top: 5px;
-}
-
-.wrapper .sidebar ul li a .fas{
-  width: 25px;
-  margin-bottom: 10px;
-
-}
-
-.wrapper .sidebar ul li:hover{
-  background-color: rgba(86,204,255,0.4);
-}
-    
-.wrapper .sidebar ul li:hover a{
-  color: #fff;
-}
- 
-.wrapper .sidebar .social_media{
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+.box {
+  position: fixed;
   display: flex;
-}
-
-.wrapper .sidebar .social_media a{
-  display: block;
-  width: 40px;
-  background: #594f8d;
-  height: 40px;
-  line-height: 45px;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 500px;
+  width: 100px;
+  background-color: transparent;
   text-align: center;
-  margin: 0 5px;
-  color: #bdb8d7;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
 }
 
-.wrapper .main_content{
-  width: 100%;
-  margin-left: 1px;
-}
-
-.wrapper .main_content .header{
+.icons {
   padding: 20px;
-  background: #000;
-  color: #717171;
-  border-bottom: 1px solid #e0e4e8;
+  
 }
+
+
+  ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+  background-color: transparent;
+  flex-wrap: wrap;
+  font-size: 14px;
+
+}
+
+
+li {
+
+  padding: 10px;
+}
+
 
 
 
 #Productthreedium{
-  background-color: #FFEDBE;
+  background-color: #FFF5DA;
   width: 460px;
-  height: 540px;
-  padding: 35px;
+  height: 500px;
+  padding-left: 25px;
+  
 }
 
+
+
 #circle1{
+  padding: 5px;
   color: #734D2F;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 #circle2{
+  padding: 5px;
   color: #E5B584;
-  font-size: 15px;
+  font-size: 25px;
+
 }
 
 #circle3{
+  padding: 5px;
   color: #404040;
-  font-size: 15px;
+  font-size: 25px;
+
 }
 
 #circle4{
+  padding: 5px;
   color: #1B3559;
-  font-size: 15px;
+  font-size: 25px;
+
 }
+
+
+.box .icons ul li a{
+  text-align: center;
+  color: #2D3047;
+}
+
+.box .icons ul li:hover{
+  background-color: rgba(86,204,255,0.3);
+}
+    
+.box .icons ul li:hover a{
+  color: #fff;
+}
+
 
 .highlight {
     background-color: rgba(86,204,255,0.6);
-    width: 100%;
-    color: white;
-    font-weight: bold;
-
+    width: 108%;
+    
 }
