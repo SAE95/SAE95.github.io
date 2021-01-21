@@ -14,10 +14,10 @@
 	<div class="box">
       	  <div class="icons"> 
            <ul>
-           <li><div id= "darKWood"><a href="#" class="button"><i id = "circle1" class="fas fa-circle"></i><br>Dark Wood</a></div></li>
-           <li><div id="ashWood"><a href="#" class="button"><i id = "circle2" class="fas fa-circle"></i><br>Light Wood</a></div></li>
-           <li><div id="bodyBlack"><a href="#" class="button"><i id = "circle3" class="fas fa-circle"></i><br>Dark Cover</a></div></li>
-           <li><div id="bodyGreen"><a href="#" class="button"><i id = "circle4" class="fas fa-circle"></i><br>Blue Cover</a></div></li>
+           <li><div id= "brownWood"><a href="#" class="button"><i id = "circle1" class="fas fa-circle"></i><br>Dark Wood</a></div></li>
+           <li><div id="lightWood"><a href="#" class="button"><i id = "circle2" class="fas fa-circle"></i><br>Light Wood</a></div></li>
+           <li><div id="black"><a href="#" class="button"><i id = "circle3" class="fas fa-circle"></i><br>Dark Cover</a></div></li>
+           <li><div id="blue"><a href="#" class="button"><i id = "circle4" class="fas fa-circle"></i><br>Blue Cover</a></div></li>
            </ul>
        	  </div>
         </div>	
@@ -34,7 +34,7 @@
 
 <script src="https://distcdn.unlimited3d.com/pres/v/1.1.19/unlimited3d.min.js"></script>
 <script>  
-  var options = {    distID:  '10331',    
+  var options = {    distID:  '10588',    
       solution3DName: 'test',    projectName: 'first-project',    
       solution3DID:  '4434',    containerID: 'Productthreedium',  };  Unlimited3D.init(options);
 </script>
@@ -45,19 +45,19 @@
 
     $(document).ready(function(){
 
-        $(" #darKWood " ).click(function(){
+        $(" #brownWood " ).click(function(){
             changeDoorMaterial("Dark_Wood");
 
         });
-         $(" #ashWood " ).click(function(){
+         $(" #lightWood " ).click(function(){
             changeDoorMaterial("Ash_Wood");
 
         });
-         $(" #bodyBlack " ).click(function(){
+         $(" #black " ).click(function(){
             changeBodyMaterial("GRAPHITE");
 
         });
-         $(" #bodyGreen " ).click(function(){
+         $(" #blue " ).click(function(){
             changeBodyMaterial("Green Graphite");
 
         });
