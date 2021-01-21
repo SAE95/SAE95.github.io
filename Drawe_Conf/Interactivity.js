@@ -12,19 +12,19 @@
 
 
       
-        $(" #darkWood " ).click(function(){
+        $(" #brownWood " ).click(function(){
             changeDoorMaterial("Dark_Wood");
 
         });
-         $(" #ashWood " ).click(function(){
+         $(" #lightWood " ).click(function(){
             changeDoorMaterial("Ash_Wood");
 
         });
-         $(" #bodyBlack " ).click(function(){
+         $(" #black " ).click(function(){
             changeBodyMaterial("GRAPHITE");
 
         });
-         $(" #bodyGreen " ).click(function(){
+         $(" #blue " ).click(function(){
             changeBodyMaterial("Green Graphite");
 
         });
